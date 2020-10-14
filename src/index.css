@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+}
+
+.pokemons-list {
+  border-right: 1px solid;
+}
+
+.pokemon-detail,
+.pokemons-list,
+.pokedex {
+  padding: 0 175px 60px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  flex-grow: 1;
+}
+.favourite {
+  padding: 0 175px 60px;
+  border-bottom: 1px solid;
+  flex-grow: 1;
+}
+
+.form-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}

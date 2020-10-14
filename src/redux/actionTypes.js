@@ -1,0 +1,8 @@
+export const CAPTURE = 'CAPTURE';
+export const RELEASE = 'RELEASE';
+export const ADD_POKEMON = 'ADD_POKEMON';
+export const ADD_POKEMONS = 'ADD_POKEMONS';
+export const ADD_FAV_POKES = 'ADD_FAV_POKES';
+export const RETURN_CAPTURE_POKES = 'RETURN_CAPTURE_POKES';
+export const POKEMON_DETAILS = 'POKEMON_DETAILS';
+
